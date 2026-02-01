@@ -24,6 +24,5 @@ app.use("/api/external", quoteRoutes);
 // Root route → show HTML page
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "../public/index.html"));
-});
-
-module.exports = app;
+})
+module.exports = app;  
