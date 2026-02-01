@@ -1,0 +1,32 @@
+{
+  "name": "personal-blog-api",
+  "version": "1.0.0",
+  "description": "Personal Blog API for Samima Muhib",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "personal-blog",
+    "nodejs",
+    "express",
+    "mongodb",
+    "api"
+  ],
+  "author": "Samima Muhib (IT-2405)",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.13.4",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "joi": "^18.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
